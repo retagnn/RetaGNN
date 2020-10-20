@@ -1,4 +1,4 @@
-### Hi there 👋
+### RetaGNN: Relational Temporal Attentive Graph NeuralNetworks for Holistic Sequential Recommendatio
 
 <!--
 **retagnn/RetaGNN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
