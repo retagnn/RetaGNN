@@ -1,19 +1,18 @@
-# RetaGNN: Relational Temporal Attentive Graph NeuralNetworks for Holistic Sequential Recommendatio
-Tensorflow based implemention of Graph Convolutional Matrix Completion for recommender systems, based on our paper:
+# RetaGNN: Relational Temporal Attentive Graph NeuralNetworks for Holistic Sequential Recommendation
+Pytorch based implemention of Relational Temporal Attentive Graph NeuralNetworks for recommender systems, based on our paper:
 
-Rianne van den Berg, Thomas N. Kipf, Max Welling, [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263) (2017)
+Cheng HSU, Cheng-Te Li, [Relational Temporal Attentive Graph NeuralNetworks](https://arxiv.org/abs/1706.02263) (2021)
 
 ## Requirements
 
-  * Python 2.7
-  * TensorFlow (1.4)
-  * pandas
+  * Python 3.6
+  * Pytorch (1.4)
  
  ## Usage
 
 To reproduce the experiments mentioned in the paper you can run the following commands:
 
-**Douban**
+**Instagram**
 ```bash
 python train.py -d douban --accum stack -do 0.7 -nleft -nb 2 -e 200 --features --feat_hidden 64 --testing 
 ```
