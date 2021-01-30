@@ -1,4 +1,4 @@
-# RetaGNN: Relational Temporal Attentive Graph NeuralNetworks for Holistic Sequential Recommendation
+# RetaGNN: Relational Temporal Attentive Graph Neural Networks for Holistic Sequential Recommendation
 Pytorch based implemention of Relational Temporal Attentive Graph NeuralNetworks for recommender systems, based on our paper:
 
 Cheng HSU, Cheng-Te Li, [Relational Temporal Attentive Graph NeuralNetworks](https://arxiv.org/abs/1706.02263) (2021)
